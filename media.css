@@ -1,0 +1,77 @@
+@media(max-width:960px){
+    .header,.navbar,.register{
+        display: none;
+    }
+    nav{
+        padding: 20px;
+    }
+    .slider:hover .prev,.slider:hover .next{
+        display: none;
+    }
+    .open-nav-menu{
+        display: block;
+    }
+    .dotsbox{
+        right: 60%;
+    }
+    .about .container {
+        flex-direction: column-reverse;
+
+    }
+    .about .container div,.flash .container div,.blog .container .blog-item,.support .container{
+        width: 100%;
+    }
+    .about .container  img{
+        width: 100%;
+    }
+    .best_product .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+    }
+    .best_product .container .products{
+        width: 47%;
+    
+    }
+  .flash .container,.small-banner .container,.blog .container,.support .container{
+      flex-direction: column;
+  }
+  .flash-content,.support div{
+     text-align: center;
+  }
+  .small-banner .container div{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.subscribe div{
+    width: 100%;
+}
+.subscribe div form input{
+    width: 250px;
+}
+  
+
+
+.support div{
+    padding-top: 25px;
+   
+}
+footer .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+footer .container div{
+    width: 100%;
+}
+.newsletter{
+    width: 80%;
+    height:auto;
+    left: 10%;
+}
+
+.newsletter .img{
+   display: none;
+}
+
+}

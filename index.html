@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/0309/2968/2571/files/favicon_32x32.png?v=1596942980">
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+    <title>Obrien</title>
+  </head>
+  <body>
+    <!--header start-->
+  <header>
+      <div class="header">
+          <div class="container">
+             <div>
+                <span class="line">
+                    Phone: +0123456789
+                  </span>
+                  <span>
+                    Email: demo@example.com
+                  </span>
+             </div>
+             <div class="icons">
+               <a href="#">
+                <i class="fa fa-facebook-f"></i>
+               </a>
+               <a href="#">
+                <i class="fa fa-twitter"></i>
+               </a>
+               <a href="#">
+                <i class="fa fa-linkedin"></i>
+               </a>
+               <a href="#">
+                <i class="fa fa-youtube-play"></i>
+               </a>
+               <a href="#">
+                <i class="fa fa-vimeo"></i>
+               </a>
+            
+             </div>
+          </div>
+      </div>
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="./images/Obrien-Logo_125x.png" alt="">
+          </div>
+         
+          <div class="navbar">
+            
+            <ul>
+              <li class="menu-item menu-item-has-children"><a href="" class="first">Home <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown">
+                  <li><a href="#">Home-1</a></li>
+                  <li><a href="#">Home-2</a></li>
+                  <li><a href="#">Home-3</a></li>
+                  <li><a href="#">Home-4</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="first">Shop</a></li>
+              <li class="menu-item menu-item-has-children"><a href="" class="first">Product <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown">
+                  <li><a href="#">Simple Product</a></li>
+                  <li><a href="#">Variable Product</a></li>
+                  <li><a href="#">Countdown Product</a></li>
+                  <li><a href="#">Soldout Product</a></li>
+                  <li><a href="#">Affiliate Product</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="first">Blog</a></li>
+              <li><a href="#" class="first">About</a></li>
+              <li><a href="#" class="first">Contact</a></li>
+            </ul>
+          </div>
+          <div class="register">
+         <ul>
+           <li class="login" >  <a href="" class="first">login</a>
+            </li>
+          
+           <li class="icons"><a href="" class="first">register</a></li>
+         <li class="menu-item menu-item-has-children">  <a href="" class="first">cad  <i class="fa fa-caret-down"></i></a>
+          <ul class="sub-menu dropdown " >
+            <li data-currency="USD" class="currency__item"><a style="cursor: pointer">USD - US Dollar</a></li>
+            <li data-currency="EUR" class="currency__item"><a style="cursor: pointer">EUR - Euro</a></li>
+            <li data-currency="GBP" class="currency__item"><a style="cursor: pointer">GBP - British Pound</a></li>
+            <li data-currency="INR" class="currency__item"><a style="cursor: pointer">INR - Indian Rupee</a></li>
+            <li data-currency="BDT" class="currency__item"><a style="cursor: pointer">BDT - Bangladesh Taka</a></li>
+            <li data-currency="JPY" class="currency__item active"><a style="cursor: pointer">JPY - Japan Yen</a></li>
+            <li data-currency="CAD" class="currency__item"><a style="cursor: pointer">CAD - Canada Dollar</a></li>
+            <li data-currency="AUD" class="currency__item"><a style="cursor: pointer">AUD - Australian Dollar</a></li>
+            
+          </ul>
+        </li> 
+     <li > <a href=""><i class="fa fa-shopping-bag"></i>
+       
+    </a>
+    </li>
+         </ul>
+           
+          </div>
+         
+            <img src="./images/menu.png"  class="open-nav-menu"  onclick="show()" alt="">
+          
+        </div>
+        
+      </nav>
+      <div id="newmenu">
+       
+ 
+          <i class="fa fa-times" id="close" onclick="hide()"></i>
+<div class="search-box">
+  <input type="search" placeholder="search our store"> <i class="fa fa-search"></i>
+</div>
+         <ul>
+           <li ><a href="" >Home</a><i class="fa fa-caret-down" onclick="showhide1()"></i>
+          <ul id="dropdown1">
+               <li><a href="">Home-1</a></li>
+               <li><a href="">Home-2</a></li>
+               <li><a href="">Home-3</a></li>
+               <li><a href="">Home-4</a></li>
+          </ul>
+        </li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Products</a><i class="fa fa-caret-down" onclick="showhide2()"></i>
+          <ul id="dropdown2">
+            <li><a href="#">Simple Product</a></li>
+            <li><a href="#">Variable Product</a></li>
+            <li><a href="#">Countdown Product</a></li>
+            <li><a href="#">Soldout Product</a></li>
+            <li><a href="#">Affiliate Product</a></li>
+          </ul>
+        </li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">My account</a></li>
+         </ul>
+       
+     
+          <a href="#">
+           <i class="fa fa-facebook-f"></i>
+          </a>
+          <a href="#">
+           <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#">
+           <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="#">
+           <i class="fa fa-youtube-play"></i>
+          </a>
+          <a href="#">
+           <i class="fa fa-vimeo"></i>
+          </a>
+       
+     
+          
+            
+          
+           
+         
+      </div>
+      
+      </div>
+      <div class="slider">
+        <!-- fade css -->
+        <div class="myslide">
+          <div class="txt">
+            <h3> Healthy life with</h3>
+           <h2>Natural Organic</h2>
+           <a href="" class=" shop_btn">Shop now</a>
+          </div>
+          <img src="./images/home-1-slider.png" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="myslide ">
+          <div class="txt">
+            <h3> Cold processed organic fruit</h3>
+           <h2>Fresh Avocado</h2>
+           <a href="" class=" shop_btn">Shop now</a>
+          </div>
+          <img src="./images/home-1-slider-2.png" style="width: 100%; height: 100%;">
+        </div>
+        <!-- onclick js -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        <div class="dotsbox">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        <!-- /onclick js -->
+      </div>
+      
+  </header>
+  <!--header end-->
+  <!--about section start-->
+  <section class="about">
+    <div class="container">
+      <div>
+        <h2>Important to eat fruit</h2>
+        <p>Eating fruit provides health benefits — people who eat more fruits and vegetables as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases. Fruits provide nutrients vital for health and maintenance of your body.</p>
+        <p>Fruits are sources of many essential nutrients that are underconsumed, including potassium, dietary fiber, vitamin C, and folate (folic acid).</p>
+        <p>Most fruits are naturally low in fat, sodium, and calories. None have cholesterol.</p>
+      </div>
+      <div>
+        <img src="./images/about-us-2.png" alt="" width="700px">
+      </div>
+    </div>
+  </section>
+  <!--about section end-->
+  <!--product section start-->
+  <section class="best_product">
+    <h2>Best Sale</h2>
+    <p class="title">All best seller product are now available for you and your can <br> buy this product from here any time any where so sop now</p>
+   <div class="container">
+     <div class="products">
+ <a href="">
+  <img src="./images/bestsale1.png"   alt="">
+  <img src="./images/bestsale3.png"   alt="">
+ </a>
+       <div class="product-view">
+         <div class="star">
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-o"></i>
+           <i class="fa fa-star-o"></i>
+         </div>
+         <a href=""  class="product_name">Product dummy title</a>
+            <p>$107.5</p>
+            <div class="hover">
+              <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+             </div>
+       </div>
+      
+     </div>
+     <div class="products">
+      <a href="">
+        <img src="./images/bestsale2.png"   alt="">
+        <img src="./images/bestsale5.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$26.5 <del>$40.25</del></p>
+           <div class="hover">
+            <a href="">   <i class="fa fa-shopping-bag"></i></a>
+            <a href="">   <i class="fa fa-refresh"></i></a>
+            <a href="">  <i class="fa fa-heart-o"></i></a>
+            <a href="">  <i class="fa fa-eye"></i></a>
+
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale3.png"   alt="">
+        <img src="./images/bestsale2.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$107.5</p> 
+           <div class="hover">
+            <a href="">   <i class="fa fa-shopping-bag"></i></a>
+            <a href="">   <i class="fa fa-refresh"></i></a>
+            <a href="">  <i class="fa fa-heart-o"></i></a>
+            <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale4.png"   alt="">
+        <img src="./images/bestsale6.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$67.5 <del>$80.45</del></p>
+           <div class="hover">
+          <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+   </div>
+  </section>
+  <!--product section end-->
+  <!--flash section start-->
+  <section class="flash">
+    <div class="container">
+      <div>
+        <img src="./images/countdown-popup_large.png" alt="" >
+      </div>
+      <div class="flash-content">
+        <h2>FLASH DEALS</h2>
+       <h3>HURRY UP AND GET 25% DISCOUNT</h3>
+       <a href="">shop now</a>
+       <div id="countdown">
+        <ul>
+          <li><span id="days"></span>Days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+      </div>
+    
+    </div>
+  
+  </section>
+  <!--flash section end-->
+  <!--small banner section start-->
+  <section class="small-banner">
+   <div class="container">
+     <div>
+       <img src="./images/fresh1.png" alt="">
+     </div>
+     <div>
+      <img src="./images/fresh2.png" alt="">
+    </div>
+    <div>
+      <img src="./images/fresh3.png" alt="">
+    </div>
+   </div>
+  </section>
+  <!--small banner section end-->
+<!--product section start-->
+  <section class="best_product">
+    <h2>FEATURED PRODUCT</h2>
+    <p class="title">All best seller product are now available for you and your can <br> buy this product from here any time any where so sop now</p>
+   <div class="container">
+     <div class="products">
+ <a href="">
+  <img src="./images/bestsale1.png"   alt="">
+  <img src="./images/bestsale3.png"   alt="">
+ </a>
+       <div class="product-view">
+         <div class="star">
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-o"></i>
+           <i class="fa fa-star-o"></i>
+         </div>
+         <a href="" class="product_name">Product dummy title</a>
+            <p>$47.5 <del>$56.5</del></p>
+            <div class="hover">
+              <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+             </div>
+       </div>
+      
+     </div>
+     <div class="products">
+      <a href="">
+        <img src="./images/bestsale2.png"   alt="">
+        <img src="./images/bestsale5.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$107.5</p>
+           <div class="hover">
+            <a href="">   <i class="fa fa-shopping-bag"></i></a>
+            <a href="">   <i class="fa fa-refresh"></i></a>
+            <a href="">  <i class="fa fa-heart-o"></i></a>
+            <a href="">  <i class="fa fa-eye"></i></a>
+
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale3.png"   alt="">
+        <img src="./images/bestsale2.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$107.5</p>
+           <div class="hover">
+            <a href="">   <i class="fa fa-shopping-bag"></i></a>
+            <a href="">   <i class="fa fa-refresh"></i></a>
+            <a href="">  <i class="fa fa-heart-o"></i></a>
+            <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale4.png"   alt="">
+        <img src="./images/bestsale6.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$47.5 <del>$56.4</del></p>
+           <div class="hover">
+          <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale6.png"   alt="">
+        <img src="./images/bestsale7.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$77.5 <del>$85.75</del></p>
+           <div class="hover">
+          <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale8.png"   alt="">
+        <img src="./images/bestsale4.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$107.5</p>
+           <div class="hover">
+          <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale5.png"   alt="">
+        <img src="./images/bestsale2.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$107.5</p>
+           <div class="hover">
+          <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+    <div class="products">
+      <a href="">
+        <img src="./images/bestsale9.png"   alt="">
+        <img src="./images/bestsale4.png"   alt="">
+       </a>
+      <div class="product-view">
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <a href=""  class="product_name">Product dummy title</a>
+           <p>$27.5 <del>$36</del></p>
+           <div class="hover">
+          <a href="">   <i class="fa fa-shopping-bag"></i></a>
+          <a href="">   <i class="fa fa-refresh"></i></a>
+          <a href="">  <i class="fa fa-heart-o"></i></a>
+          <a href="">  <i class="fa fa-eye"></i></a>
+           </div>
+      </div>
+    </div>
+   </div>
+  </section>
+  <!--product section end-->
+  <!--subscribe section start-->
+  <section class="subscribe">
+   <div>
+     <h4>SPECIAL <span>OFFER</span> FOR SUBSCRIPTION</h4>
+     <h2>GET INSTANT DISCOUNT FOR MEMBERSHIP</h2>
+     <p>Subscribe our newsletter and all latest news of our <br>
+      latest product, promotion and offers</p>
+      <form action="">
+        <input type="mail" placeholder="email@example.com">
+        <button class="btn_subscribe">subscribe</button>
+      </form>
+   </div>
+  </section>
+  <section class="newsletter" id="modal">
+   <div class="img"><img src="./images/modal.jpg" alt="" width="100%" height="100%"></div>
+    <div class="content" >
+      <span onclick="hide()" class="delete"><i class="fa fa-remove"></i></span>
+      <h3>Newsletter</h3>
+      <p>Join over 1,000 people who get free and fresh content delivered automatically each time we publish</p>
+      <form method="POST">
+        <input type="email" placeholder="Enter Your Email">
+    </form>
+    <a href="#">Subscribe</a>
+  <p>  <input type="checkbox" >
+    <label for="vehicle1"> Don't show this again</label></p>
+    </div>
+  </section>
+  <!--subscribe section end-->
+<!--blog section start-->
+<section class="blog">
+  <h2>LATEST BLOG</h2>
+  <p class="title">If you want to know about the organic product then keep an <br> eye on our blog.</p>
+ <div class="container">
+   <div class="blog-item">
+    <div> <img src="./images/blog1.jpg" alt=""></div>
+    <div class="blog-info">
+      <div class="date">
+        <span>14</span>
+        <span>01</span>
+      </div>
+    <div class="blog-text">
+      <span>Author: Obrien Demo Admin  &#124; Comments: 1</span>
+      <h3>There are many variations of passages of lorem ipsum available</h3>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
+    </div>
+    </div>
+   </div>
+   
+   <div class="blog-item">
+    <div> <img src="./images/blog2.jpg" alt=""></div>
+    <div class="blog-info">
+      <div class="date">
+        <span>14</span>
+        <span>01</span>
+      </div>
+    <div class="blog-text">
+      <span>Author: Obrien Demo Admin</span>
+      <h3>There are many variations of passages of lorem ipsum available</h3>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
+    </div>
+    </div>
+   </div>
+   <div class="blog-item">
+    <div> <img src="./images/blog3.jpg" alt=""></div>
+    <div class="blog-info">
+      <div class="date">
+        <span>14</span>
+        <span>01</span>
+      </div>
+    <div class="blog-text">
+      <span>Author: Obrien Demo Admin</span>
+      <h3>There are many variations of passages of lorem ipsum available</h3>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
+    </div>
+    </div>
+   </div>
+ </div>
+</section>
+<!--blog section end-->
+<!--support section start-->
+<section class="support">
+  <div class="container">
+    <div>
+      <h3>Need Help ?</h3>
+      <p>Call our support 24/7 at 01234-567-890 </p>
+    </div>
+    <div>
+      <a href="">contact now</a>
+    </div>
+  </div>
+</section>
+<!--support section end-->
+<footer>
+  <div class="container">
+
+     <div><img src="./images/Obrien-Logo_125x.png" alt="">
+     <p>Lukas is the best parts shop for your car accessories. What kind of parts do you need you can get here soluta nobis</p>
+  
+       <a href="#">
+        <i class="fa fa-twitter"></i>
+       </a>
+       <a href="#">
+        <i class="fa fa-linkedin"></i>
+       </a>
+       <a href="#">
+        <i class="fa fa-youtube-play"></i>
+       </a>
+       <a href="#">
+        <i class="fa fa-vimeo"></i>
+       </a>
+   </div>
+   <div>
+    <h4>Information</h4>
+    <ul>
+      <li><a href=""> Our company</a></li>
+      <li><a href=""> Contact Us</a></li>
+      <li><a href=""> Our services</a></li>
+      <li><a href=""> Why We?
+      </a></li>
+      <li><a href="">Careers</a></li>
+    </ul>
+   </div>
+   <div>
+     <h4>Quicklink</h4>
+     <ul>
+       <li><a href="">about</a></li>
+       <li><a href="">blog</a></li>
+       <li><a href="">shop</a></li>
+       <li><a href="">cart</a></li>
+       <li><a href="">contact</a></li>
+     </ul>
+   </div>
+   <div>
+     <h4>Support</h4>
+     <ul>
+       <li><a href="">online support</a></li>
+       <li><a href="">Shipping Policy</a></li>
+       <li><a href="">Return Policy</a></li>
+       <li><a href="">Privacy Policy</a></li>
+       <li><a href="">Terms of Service  </a></li>
+     </ul>
+   </div>
+   <div>
+     <h4>Store Information</h4>
+     <p>123, H2, Road #21, Main City, Your address goes here. </p>
+     <p>Phone: 01254 698 785, 36598 254 987</p>
+     <p>Email: demo@example.com</p>
+   </div>
+  </div>
+  <div class="end">
+    Front End Developer: <span>Zumrud Ahmadova</span>
+  </div>
+</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
